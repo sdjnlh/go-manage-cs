@@ -1,0 +1,16 @@
+#程序基本信息配置
+csApi:
+  version: V1.0.0
+  address: 83
+  title: 金宝塑业后台管理系统
+  token: jinbao@cs@2022
+#数据库配置（本地）
+dbMaster:
+  type: postgres
+  showSql: true
+  username: lh
+  password: 8EDA623F8C23F8A5C5CFC72D2F5957A7
+  host: 39.100.19.104
+  dbname: jinbao
+  port: 5432
+

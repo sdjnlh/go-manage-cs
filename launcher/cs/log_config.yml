@@ -1,0 +1,10 @@
+log:
+  level: debug
+  encoding: console
+  outputPaths: ["stdout"]
+  errorOutputPaths: ["stderr"]
+  encoderConfig:
+    messageKey: msg
+    levelKey: level
+    levelEncoder: lowercase
+    stacktraceKey: stack
